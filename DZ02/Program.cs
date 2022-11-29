@@ -18,7 +18,7 @@ catch
 }
 double dist (int x1,int y1,int z1,int x2,int y2,int z2)
 {
-double d = Math.Sqrt((x2-x1)*(x2-x1)*(z2-z1)+(y2-y1)*(y2-y1)*(z2-z1));
+double d = Math.Sqrt((x2-x1)^2*(x2-x1)^2*(z2-z1)^2+(y2-y1)^2*(y2-y1)^2*(z2-z1)^2);
 return d;
 }
 
